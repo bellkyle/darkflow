@@ -3,7 +3,6 @@
 *.pyc
 
 # Weight files
-bin/
 
 # Sample image data
 sample_img/*.jpg
@@ -14,14 +13,6 @@ sample_img/out/*
 results/
 
 # Intermediate training data
-backup/
-tfnet/yolo/parse-history.txt
-tfnet/yolo/*.parsed
-*.txt
-!requirements*.txt
-*.pb
-/profile
-/test.py
 
 # Built cython files
 darkflow/cython_utils/*.pyd
@@ -40,7 +31,6 @@ summary/
 built_graph/
 
 #Training checkpoints
-ckpt/*
 
 #pytest cache
 .cache/
