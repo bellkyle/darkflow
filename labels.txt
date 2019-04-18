@@ -1,4 +1,3 @@
 notebook
-controller
+contoller
 pen
-keyboard
